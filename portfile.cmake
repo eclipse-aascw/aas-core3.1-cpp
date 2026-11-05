@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 aas-core3.1-cpp AUTHORS
+#
+# SPDX-License-Identifier: MIT
+
 vcpkg_from_github(
         OUT_SOURCE_PATH SOURCE_PATH
         REPO aas-core-works/aas-core3.1-cpp

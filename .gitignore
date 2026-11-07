@@ -5,6 +5,8 @@
 /.venv*/
 *.egg-info
 /build*/
+/dev_scripts/build/
+__pycache__/
 /dependencies-for-local-development-on-windows/
 /dist/
 /cmake-build-debug/

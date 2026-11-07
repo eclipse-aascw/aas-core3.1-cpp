@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2026 aas-core3.1-cpp AUTHORS
+//
+// SPDX-License-Identifier: MIT
+
 #ifndef AAS_CORE_AAS_3_1_VERIFICATION_GUARD_
 #define AAS_CORE_AAS_3_1_VERIFICATION_GUARD_
 

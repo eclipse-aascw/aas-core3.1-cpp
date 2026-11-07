@@ -27,24 +27,6 @@ precedence = "aggregate"
 SPDX-FileCopyrightText = "2026 aas-core3.1-cpp AUTHORS"
 SPDX-License-Identifier = "MIT"
 
-# Build output of the dev scripts package (a copy of dev_scripts/codegen) and
-# a compiled Python file. They are generated, and the .pyc file is binary.
-[[annotations]]
-path = [
-    "dev_scripts/build/lib/codegen/snippets/**",
-    "dev_scripts/continuous_integration_of_dev_scripts/__pycache__/**",
-]
-precedence = "aggregate"
-SPDX-FileCopyrightText = "2026 aas-core3.1-cpp AUTHORS"
-SPDX-License-Identifier = "MIT"
-
-# The build output also contains a copy of the meta-model from aas-core-meta.
-[[annotations]]
-path = "dev_scripts/build/lib/codegen/meta_model.py"
-precedence = "aggregate"
-SPDX-FileCopyrightText = "2024 aas-core-meta AUTHORS"
-SPDX-License-Identifier = "MIT"
-
 # Test data and the recorded test outputs are generated and compared
 # byte-by-byte, and JSON can not carry a comment.
 [[annotations]]

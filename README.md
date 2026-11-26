@@ -6,7 +6,7 @@
 
 This is a software development kit (SDK) in C++ to manipulate, verify and de/serialize Asset Administration Shells based on the version 3.1 of the meta-model.
 
-The documentation is available on: https://aas-core-works.github.io/aas-core3.1-cpp/
+The documentation is available on: https://eclipse-aascw.github.io/aas-core3.1-cpp/
 
 The code has been automatically generated in great part by [aas-core-codegen].
 
